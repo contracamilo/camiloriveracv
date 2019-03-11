@@ -218,7 +218,9 @@ ul {
       .profile__intro {
         width: 70%; }
         .profile__intro h2 {
-          font-size: 28px; } }
+          font-size: 23px; 
+      } 
+}
   .profile__skills {
     width: 35%;
     position: relative;
@@ -397,7 +399,10 @@ ul {
     @media (max-width: 600px) {
       .references__title {
         top: -51px;
-        font-size: 58px; } }
+        font-size: 52px;
+        line-height: 1;
+      } 
+  }
   .references__work {
     display: flex;
     font-family: "Muli", sans-serif;
