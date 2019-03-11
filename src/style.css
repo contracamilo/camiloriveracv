@@ -100,9 +100,10 @@ ul {
       right: 0px; }
     @media (max-width: 600px) {
       .header__logo {
-        padding: 0;
-        width: 168px;
-        height: 205px; } }
+         padding: 0;
+         width: 20%;
+      } 
+    }
   .header__call-me {
     position: relative; }
     .header__call-me a {
@@ -151,8 +152,11 @@ ul {
       color: #000000; }
     @media (max-width: 600px) {
       .intro h1 {
-        font-size: 80px;
-        text-align: center; } }
+        font-size: 70px;
+        text-align: center; 
+        margin-top: 97px;
+      } 
+    }
   .intro__contact {
     position: absolute;
     left: 60px;
@@ -163,7 +167,11 @@ ul {
         padding: 0 0 0 10px; } }
     @media (max-width: 600px) {
       .intro__contact {
-        padding: 0 0 0 0px; } }
+        padding: 0 0 0 0px; 
+        left: 32px;
+      bottom: 11px;
+      } 
+    }
     .intro__contact li {
       display: inline-block;
       margin-right: 10px; }
